@@ -1,0 +1,10 @@
+const alphabet=`абвгдеёжзийклмнопрстуфхцчшщъыьэюя`;
+let randomIndex1=Math.floor(Math.random()*alphabet.length);
+let randomletter1=alphabet[randomIndex1];
+let randomIndex2=Math.floor(Math.random()*alphabet.length);
+let randomletter2=alphabet[randomIndex2];
+let randomIndex3=Math.floor(Math.random()*alphabet.length);
+let randomletter3=alphabet[randomIndex3];
+let randomIndex4=Math.floor(Math.random()*alphabet.length);
+let randomletter4=alphabet[randomIndex4];
+console.log(`${randomletter1}`+`${randomletter2}`+`${randomletter3}`+`${randomletter4}`);
